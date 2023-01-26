@@ -1,0 +1,57 @@
+.about {
+  background-image: none;
+  margin-top: 20vh;
+  display: block;
+  scroll-margin-top: 15vh;
+}
+
+.about h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.about p {
+  padding: 0 10vw;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.vision-mission {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vision-mission h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.vismis-col {
+  margin: 2vh 5vw;
+  border: 2px solid rgb(164, 255, 255);
+  border-radius: 30px;
+  max-width: 450px;
+  line-height: 2em;
+}
+
+.vismis-col ul {
+  padding: 0 4vw;
+}
+
+.vismis-col ul {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .vismis-col {
+    margin: 2vh 7vw;
+  }
+
+  .vismis-col ul {
+    padding: 0 10vw;
+  }
+}

@@ -1,0 +1,105 @@
+.pricing {
+  margin-top: 20vh;
+  scroll-margin-top: 15vh;
+}
+
+.pricing h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.pricing-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2vh 5vw;
+}
+
+.pricing-content {
+  margin: 2vh 2vw;
+  padding: 0 2vw 3vh 2vw;
+  border: 2px solid rgb(164, 255, 255);
+  width: 280px;
+  border-radius: 30px;
+}
+
+.pricing-content h2 {
+  font-size: 2em;
+}
+
+.pricing-content h3 {
+  margin-top: -3vh;
+}
+
+.pricing-content hr {
+  border: 0.5px solid rgb(164, 255, 255);
+  background-color: rgb(164, 255, 255);
+}
+
+.pricing-content ul {
+  font-size: 1.25em;
+  line-height: 2em;
+  height: 50%;
+}
+
+.upper-pricing {
+  height: 125px;
+}
+
+.pricing-content a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.pricing-content button {
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  padding: 1vh 2vw;
+  font-weight: 800;
+  font-size: 1.2em;
+  color: none;
+  width: 100%;
+}
+
+.pricing-content button:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
+.pricing h5 {
+  font-weight: 300;
+  padding-left: 10vw;
+}
+
+@media (max-width: 768px) {
+  .pricing h1 {
+    font-size: 3em;
+  }
+
+  .pricing-content ul {
+    height: auto;
+  }
+
+  .pricing-content button {
+    width: 90%;
+  }
+
+  .upper-pricing {
+    height: auto;
+    padding-left: 2vh;
+  }
+
+  .pricing-content button:hover {
+    filter: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing h1 {
+    font-size: 2em;
+  }
+}
